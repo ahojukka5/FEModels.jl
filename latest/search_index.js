@@ -57,7 +57,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "api.html#FEModels.fe_download-Tuple{Any,Any}",
+    "location": "api.html#FEModels.fe_download-Tuple{Any,Any,Any}",
     "page": "API",
     "title": "FEModels.fe_download",
     "category": "Method",
