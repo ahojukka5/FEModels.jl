@@ -10,9 +10,9 @@ using GZip
 
 Download finite element mesh from FEModels repository.
 """
-function fe_download(model, mesh)
-#   url = "https://github.com/JuliaFEM/FEModels/blob/master/$model/$mesh.gz?raw=true"
-    url = "https://raw.githubusercontent.com/JuliaFEM/FEModels/master/$model/$mesh.gz"
+function fe_download(model, mesh, version)
+#   url = "https://github.com/JuliaFEM/FEModels/blob/$version/$model/$mesh.gz?raw=true"
+    url = "https://raw.githubusercontent.com/JuliaFEM/FEModels/$version/$model/$mesh.gz"
     isdir(model) || mkdir(model)
     local_file = joinpath(model, mesh)
     local_file_packed = "$local_file.gz"
