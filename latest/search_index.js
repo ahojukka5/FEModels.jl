@@ -60,7 +60,7 @@ var documenterSearchIndex = {"docs": [
     "location": "api.html#FEModels.fe_download-Tuple{Any,Any,Any}",
     "page": "API",
     "title": "FEModels.fe_download",
-    "category": "Method",
+    "category": "method",
     "text": "fe_download(model, mesh)\n\nDownload finite element mesh from FEModels repository.\n\n\n\n"
 },
 
@@ -68,7 +68,7 @@ var documenterSearchIndex = {"docs": [
     "location": "api.html#FEModels.fe_list-Tuple{}",
     "page": "API",
     "title": "FEModels.fe_list",
-    "category": "Method",
+    "category": "method",
     "text": "fe_list()\n\nList all finite element models / meshes in FEModels repository.\n\n\n\n"
 },
 
